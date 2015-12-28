@@ -4,9 +4,9 @@ This file contains R code that helps to predict Boston housing prices as well as
 The dataset is available at: https://archive.ics.uci.edu/ml/datasets/Housing
 ######################################################################################################
 
-setwd("E:\\Assignments\\DiggingIntoData\\HW2-Prediction&Classification\\Dataset")
+setwd("E:\Prediction&Classification\\Dataset")
 
-train_data<-read.csv("E:\\Assignments\\DiggingIntoData\\HW2-Prediction&Classification\\Dataset\\house_train.csv",
+train_data<-read.csv("E:\Prediction&Classification\\Dataset\\house_train.csv",
                strip.white=TRUE,
                stringsAsFactors=FALSE,
                na.strings=c("NA",""))
